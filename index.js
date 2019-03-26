@@ -18,6 +18,6 @@ function exactMatch(list, object) {
       if (driver[key] === object[key])
        return true;
     }
-    return false
+    return false;
   })
 }
