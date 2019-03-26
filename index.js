@@ -21,3 +21,10 @@ function exactMatch(list, object) {
     return false;
   })
 }
+
+function exactMatchToList(list, object) {
+  const newList = exactMatch(list, object)
+  return newList.map(function (driver){
+    return driver.name;
+  })
+}
